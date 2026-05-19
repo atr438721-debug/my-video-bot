@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["python312"]
+
+[phases.install]
+cmds = ["pip install python-telegram-bot==20.7"]
