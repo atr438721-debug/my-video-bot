@@ -10,8 +10,8 @@ from telegram.ext import (
 # ==============================
 # НАСТРОЙКИ — ИЗМЕНИ ЭТО
 # ==============================
-BOT_TOKEN = "СЮДА_ВСТАВЬ_ТОКЕН_ОТ_BOTFATHER"
-ADMIN_ID = 123456789       # Твой Telegram ID (узнать: @userinfobot)
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_ID = 7965349922      # Твой Telegram ID (узнать: @userinfobot)
 STARS_PRICE = 50           # Сколько Stars стоит одно видео (50 Stars ≈ 1 TON)
 
 # ==============================
