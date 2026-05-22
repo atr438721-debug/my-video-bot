@@ -1,1 +1,4 @@
-python-telegram-bot==20.8
+cat > /mnt/user-data/outputs/requirements.txt << 'EOF'
+python-telegram-bot==20.7
+psycopg2-binary==2.9.9
+EOF
